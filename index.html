@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
+    <div class="clock-container">
+        <div class="digital-clock" id="digital-clock"></div>
+    </div>
+    <script src="script.js"></script>
 
     <video id="video" autoplay muted loop>
         <source src="assets/veg.mp4" type="video/mp4"/>
     </video>
-
+    <div id="time-widget"></div>
     <div>
         <img id="sear" src="assets/fontbolt_1_-removebg-preview.png" alt="">
     </div>
@@ -22,18 +26,19 @@
                 <input name="q" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your text" id="searchInput">
                 <select id="searchEngine" name="searchEngine">
                     <option value="google">Google</option>
-                    <option value="youtube">Youtube</option>
-                    <option value="reddit">Reddit</option>
-                    <option value="pinterest">Pinterest</option>
                     <option value="instagram">Instagram</option>
+                    <option value="youtube">Youtube</option>
                     <option value="linkedin">LinkedIn</option>
+                    <option value="pinterest">Pinterest</option>
                     <option value="facebook">Facebook</option>
+                    <option value="reddit">Reddit</option>
                     <option value="x">X</option>   
                 </select>
             </div>
             <button class='glowing-btn'><span class='glowing-txt'>S<span class='faulty-letter'>E</span>ARCH</span></button>
         </form>
     </div>
+    <script src="script.js"></script>
 
     <script>
         // Function to handle form submission
