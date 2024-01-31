@@ -253,3 +253,70 @@ button{
       height: 100%;
     }
   }
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+select{
+  opacity: 0.5;
+}
+/* Shadow Flicker on Hover */
+select:hover {
+    box-shadow: 0 0 10px hsl(263, 78%, 55%), 0 0 20px hsl(263, 78%, 55%), 0 0 30px hsl(263, 78%, 55%);
+    transition: box-shadow 0.3s ease-out;
+}
+
+/* Flexbox styling for input, button, and dropdown */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.input-group {
+    display: flex;
+    width: 100%;
+}
+
+#searchInput {
+    flex-grow: 2;
+    margin-right: 10px;
+}
+
+/* Add these styles to the end of your existing CSS */
+
+input,
+select {
+    border-radius: 10px; /* Adjust the radius as needed */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+/* Shadow Flicker on Hover for input */
+input:hover {
+    box-shadow: 0 0 10px hsl(263, 78%, 55%), 0 0 20px hsl(263, 78%, 55%), 0 0 30px hsl(263, 78%, 55%);
+    transition: box-shadow 0.3s ease-out;
+}
+
+/* Flexbox styling for input, button, and dropdown */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.input-group {
+    display: flex;
+    width: 100%;
+}
+
+#searchInput {
+    flex-grow: 2;
+    margin-right: 10px;
+}
+select{
+  opacity: 0.5;
+}
